@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sunil-Suite">
+	<test name="NofRowsColmns">
+		<classes>
+			<class name="com.testng.NofRowsColmns">
+				<methods>
+					<include name="main" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="FirstTest">
+		<classes>
+			<class name="com.testng.FirstTest">
+				<methods>
+					<include name="TestGoogle" />
+					<include name="TestFB" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="OrangeHRM">
+		<classes>
+			<class name="com.testng.OrangeHRM">
+				<methods>
+					<include name="LaunchApp" />
+					<include name="LgintoApp" />
+					<include name="VerifyMyInfo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="BeforeTestAndAfterTest">
+		<classes>
+			<class name="com.testng.BeforeTestAndAfterTest" />
+		</classes>
+	</test>
+</suite>
