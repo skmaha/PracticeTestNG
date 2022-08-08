@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FirstTest {
-	WebDriver driver = WebDriverManager.chromedriver().create();
+	WebDriver driver = WebDriverManager.firefoxdriver().create();
 
 	@Test
 	public void TestGoogle() throws InterruptedException {

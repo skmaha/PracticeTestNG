@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class BeforeTestAndAfterTest {
-	WebDriver driver = WebDriverManager.chromedriver().create();
+	WebDriver driver = WebDriverManager.firefoxdriver().create();
 	
 	@BeforeTest
 	public void BeforeTest(){
